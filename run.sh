@@ -24,7 +24,7 @@ cd  /usr/src/
 
 #apt-get install postgresql-client -y
 
-#exec supervisord -n
+exec supervisord -n
 
 
 

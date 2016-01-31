@@ -27,7 +27,7 @@ RUN chmod 755 /usr/src/*.sh
 VOLUME [ "/pclocal" ]
 
 
-EXPOSE 80 8080 5432
+EXPOSE 80 8080 8008 5432
 
 
 CMD ["/usr/src/run.sh"]
